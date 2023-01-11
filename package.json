@@ -1,0 +1,20 @@
+{
+  "name": "audio-metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {},
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/dev-app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npx prettier --write \"**/*.ts\""
+  }
+}
